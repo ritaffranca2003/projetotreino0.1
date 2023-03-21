@@ -1,0 +1,39 @@
+using System;
+using System.Colletions.Generic;
+using System.Linq;
+using System.Text;
+
+nomespace Exercicio_01
+{
+  class program
+  {
+    static void main(string [] args)
+    {
+    
+      /*
+      Consile.Write("hello word!!"); // Esse comando escreve a menssagem na mesma linha.  
+      Consile.WriteLine("hello word!!"); // Esse comando escreve a menssagem, poem pulando uma linha.  
+      Consile.ForegroundColor = ConsoleColor.Blue; // Esse comando altera a cor da linha (Altera a cor da fonte).
+      */
+          //Escreva um programa em C# onde o usuario ira digitar um número e o excutavel ira informar se o número digitado é par ou impar
+
+
+      int n1;
+
+      Console.Write("insira um número: ");
+      n1 = Covert.ToInt32(Console.ReadLine(); // lê e converte para int o número informado pelo usuario.
+
+      if(n1 % 2 == 0)
+      {
+        Console.WriteLine("O número digitado é par");
+      }
+
+      else
+      {
+        Console.WriteLine("O número digitado é impar");
+      }
+      
+      Console.ReadKey();
+    }
+  }
+}
